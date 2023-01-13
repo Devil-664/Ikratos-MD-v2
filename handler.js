@@ -473,10 +473,10 @@ export async function handler(chatUpdate) {
               if (!isNumber(user.wortel)) user.wortel = 0
 		    
               if (!user.lbars) user.lbars = '[▒▒▒▒▒▒▒▒▒]'
-              if (!user.job) user.job = 'Desempleo'
+              if (!user.job) user.job = 'Unemployment'
               if (!user.premium) user.premium = false
               if (!user.premium) user.premiumTime = 0
-              if (!user.rtrofi) user.rtrofi = 'Bronce'
+              if (!user.rtrofi) user.rtrofi = 'Bronze'
                                                    		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
             } else
                 global.db.data.users[m.sender] = {
@@ -619,7 +619,7 @@ export async function handler(chatUpdate) {
                     jagung: 0,
                     jagungbakar: 0,
                     jeruk: 0,
-                    job: 'Pengangguran',
+                    job: 'Unemployment',
 		    joincount: 2,
                     joinlimit: 1,
                     judilast: 0,
@@ -815,7 +815,7 @@ export async function handler(chatUpdate) {
                     roket: 0,
                     role: 'Novato',
                     roti: 0,
-                    rtrofi: 'bronce',
+                    rtrofi: 'Bronze',
                     rubah: 0,
                     rubahlastclaim: 0,
                     rumahsakit: 0,
@@ -1177,7 +1177,7 @@ export async function handler(chatUpdate) {
                     m.reply('Exp limit') // Hehehe
                 else               
                 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-                    this.reply(m.chat, `🫥 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚 𝙇𝙤𝙡𝙞𝘾𝙤𝙞𝙣𝙨`, m)
+                    this.reply(m.chat, `🫥 NOT ENOUGH COINS`, m)
                     continue     
 		}
 			
@@ -1247,7 +1247,7 @@ export async function handler(chatUpdate) {
                         m.reply(+m.limit + lenguajeGB.smsCont8())
                 }
                  if (m.money)
-                        m.reply(+m.money + ' 𝙇𝙤𝙡𝙞𝘾𝙤𝙞𝙣𝙨 𝙪𝙨𝙖𝙙𝙤𝙨')
+                        m.reply(+m.money + ' COINS USED')
               
                 break
             }
@@ -1309,7 +1309,7 @@ export async function handler(chatUpdate) {
 	await this.readMessages([m.key])
 	    
         if (!db.data.chats[m.chat].reaction && m.isGroup) throw 0
-        if (!m.fromMem && m.text.match(/(el rebelde|@5219996125657|@5492266466080|admin del bot|Bot|LoliBot|lolibot|The LoliBot-md|lolibot-md|The LoliBot-MD|has|ato|ido|ura|des|able|sub|izo|ita|con|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
+        if (!m.fromMem && m.text.match(/(el rebelde|@5219996125657|@5492266466080|admin of bot|Bot|ikratosbot|Ikratosbot|The Ikratosbot-md|Ikratosbot-md|The Ikratosbot-MD|has|ato|ido|ura|des|able|sub|izo|ita|con|.-.|._.|:)|:(|:v|v:|o.o|;v|v;|v':|:'v)/gi)) {
         let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
         this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
         function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -1341,7 +1341,7 @@ export async function participantsUpdate({ id, participants, action }) {
                         pp = await this.profilePictureUrl(user, 'image')
                     } catch (e) {
                     } finally {
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*ᴜɴ ɢʀᴜᴘᴏ ɢᴇɴɪᴀ😸*\n *sɪɴ ʀᴇɢʟᴀ 😉*') :
+                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*a genius group😸*\n *no rule 😉*') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user))
                             let apii = await this.getFile(pp)
                             this.sendHydrated(id, text, groupMetadata.subject, apii.data, null, null, [], '', { mentions: [user]})

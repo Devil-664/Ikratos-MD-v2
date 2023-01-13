@@ -1,5 +1,5 @@
 {
-"name": "The-LoliBot-MD",
+"name": "Ikratos-MD-v2",
 "version": "1.4.5",
 "description": "Super Bot WhatsApp",
 "main": "index.js",
@@ -15,16 +15,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/elrebelde21",
+"homepage": "https://github.com/xIKRATOSx",
 "author": {
-"name": "elrebelde21" },
+"name": "xIKRATOSx" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/elrebelde21/The-LoliBot-MD.git" },
+"url": "git+https://github.com/xIKRATOSx/Ikratos-MD-v2.git" },
     
 "bugs": {
-"url": "https://github.com/elrebelde21/The-LoliBot-MD/issues" },
+"url": "https://github.com/xIKRATOSx/Ikratos-MD-v2/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
         "@adiwajshing/baileys": "github:GataNina-Li/baileys",

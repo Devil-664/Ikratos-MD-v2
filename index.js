@@ -1,4 +1,4 @@
-console.log('Iniciando 🚀🚀🚀')
+console.log('starting 🚀🚀🚀')
 import { join, dirname } from 'path'
 import { createRequire } from "module";
 import { fileURLToPath } from 'url'
@@ -13,11 +13,11 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('The-Loli\nBot\nMD', {
+say('Ikratos\nMD\nV2', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Por LoliBot`, {
+say(`by xIKRATOSx`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -32,7 +32,7 @@ if (isRunning) return
 isRunning = true
 let args = [join(__dirname, file), ...process.argv.slice(2)]
 
-say('✅ 𝙔𝘼 𝙋𝙐𝙀𝘿𝙀 𝙀𝙎𝘾𝘼𝙉𝙀𝘼𝙍 𝙀𝙇 𝘾𝙊𝘿𝙄𝙂𝙊 𝙌𝙍', {
+say('✅ NOW YOU  CAN SCAN THE QR CODE', {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -43,7 +43,7 @@ args: args.slice(1), })
 let p = fork()
 p.on('message', data => {
 //setTimeout(() => {  
-console.log('┆ ✓ ACTIVIDAD ACTUALIZADA\n╰----------------- - - -', data)//}, 50000)
+console.log('┆ ✓ UPDATED ACTIVITY\n╰----------------- - - -', data)//}, 50000)
 switch (data) {
 case 'reset':
 p.process.kill()
@@ -55,7 +55,7 @@ p.send(process.uptime())
 break }})
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ Error Inesperado', code)
+console.error('⚠️ Unexpected error', code)
   
 p.process.kill()
 isRunning = false

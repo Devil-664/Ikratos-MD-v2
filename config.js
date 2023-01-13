@@ -5,27 +5,29 @@ import moment from 'moment-timezone'
 import fs from 'fs' 
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js' 
 
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario ⋅.━━━━ ⊰  
+//⊱ ━━━━━.⋅ Add the numbers to be Owner ⋅.━━━━ ⊰  
 global.owner = [
-  ['5492266466080', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', true],
-  ['5492266613038', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', true],
-  ['56964787183', '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫', true],
-//['593968585383'], DEJEN ESTO ASÍ POR AHORA POR FAVOR
-  ['573183650526'] 
+  ['923470027813', 'Ahmad Ali|x_ikratos_x', true],
+  ['923191089077', 'Ikratos-MD-v2', true],
+  ['19294517701', 'Ikratos-MD-v2', true],
+  ['971567062942', 'Ikratos-MD-v2', true],
+  ['6777303337', 'Ikratos-MD-v2', true],
+//['923470027813'], LEAVE THIS LIKE THAT FOR NOW PLEASE
+  ['923191809077'] 
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['50495745934'] 
-global.prems = ['595986172767', '5493704555464'], 
+global.mods = ['923470027813'] 
+global.prems = ['923470027813', '923191809077','6777303337'], 
    
   
-//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫
+//⊱ ━━━━━.⋅ IDIOMA : Language ⋅.━━━━ ⊰ 
+//Add the Language you want it to have Ikratos-MD-v2
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de 𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫, Ejemplo: es | en | pt...
+global.lenguajeGB = en  //Language of Ikratos-MD-v2, Exemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -102,70 +104,70 @@ global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'Toma tu sticker'
-global.author = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
+global.packname = 'x_ikratos_x\n\n\n\n\n\n\n\n\n\n\n\t'
+global.author = 'Ahmad Ali\n\n\n\n\n\n\n\n\n\n\n\t'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ Version | Name | accounts ⋅.━━━━ ⊰
 
 global.vs = '1.4.5'
 global.version = vs
 
-global.lb = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
+global.lb = 'Ikratos-MD-v2'
 global.lolibot = lb
 
-global.yt = 'https://www.youtube.com/@TheLoliBot-MD'
+global.yt = 'https://www.youtube.com/@xIKRATOSx'
 global.youtube = yt
 
-global.ig = 'https://www.tiktok.com/@thelolibot_md'
+global.ig = 'https://www.instagram.com/itx_ahmad.ali'
 global.tiktok = ig
 
-global.md = 'https://github.com/elrebelde21/The-LoliBot-MD'
+global.md = 'https://github.com/xIKRATOSx/Ikratos-MD-v2'
 global.lolibot = md
 
-global.nna = 'https://chat.whatsapp.com/JESaesjOEcB6wnGX0QYT9o'
-global.nnagrupo = nna //Actualización, información sobre el bot
+global.nna = 'https://chat.whatsapp.com/KqYY92moqLG4Ik0QWRIgio'
+global.nnagrupo = nna //Update, information about the bot
 global.nna2 = 'JESaesjOEcB6wnGX0QYT9o'
 
-global.nn = 'https://chat.whatsapp.com/BaHPUdegBxB4eurlAbhOT8'
+global.nn = 'https://chat.whatsapp.com/KqYY92moqLG4Ik0QWRIgio'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/IzYCMmIk3bg9sdMP4uYFRZ'
+global.nnn = 'https://chat.whatsapp.com/KqYY92moqLG4Ik0QWRIgio'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnntt = 'https://chat.whatsapp.com/HJpzLVK1XWaKG7kCWTmfW0' //Grupo del Colaboracion
+global.nnntt = 'https://chat.whatsapp.com/KqYY92moqLG4Ik0QWRIgio' //Grupo del Colaboracion
 
-global.nnnttt = 'https://chat.whatsapp.com/KzHWDoG6he3GrXIfssvc7t'
+global.nnnttt = 'https://chat.whatsapp.com/KqYY92moqLG4Ik0QWRIgio'
 global.nnntttgrupo = nnnttt //Grupo ayuda sobre el bot
 
-global.asistencia = 'Wa.me/5492266466080' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/923470027813' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
-global.rg = '╰⊱✅⊱ *𝙍𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤𝙨* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ *𝙍𝙚𝙨𝙪𝙡𝙩* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝙙𝙫𝙚𝙧𝙩𝙚𝙣𝙘𝙞𝙖* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ *ALERT* ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞𝙤𝙣* ⊱⊱╮\n\n'
+global.iig = '╰⊱❕⊱ *INFORMATION* ⊱⊱╮\n\n'
 global.informacion = iig
 
 global.fg = '╰⊱❌⊱ *𝙀𝙧𝙧𝙤𝙧* ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙤 𝙪𝙨𝙤 𝙢𝙖𝙡* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ *USED IT WRONG* ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙚𝙥𝙤𝙧𝙩𝙚* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱📩⊱ *𝙍𝙚𝙥𝙤𝙧𝙩* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀𝙭𝙞𝙩𝙤* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱💚⊱ *𝙀𝙭𝙞𝙩* ⊱💚⊱╮\n\n'
 global.exito = eg
 
 //𝙀𝙅𝙀𝙈𝙋𝙇𝙊
@@ -174,13 +176,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
-global.igfg = '𝑻𝒉𝒆 𝑳𝒐𝒍𝒊𝑩𝒐𝒕-𝑴𝑫'
-global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
-global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
-global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
-global.waitttt = '*⌛ _Cargando...._ ▬▬▬▬▬▬▭*'
-global.nomorown = '5492266466080'
+global.wm = 'Ikratos-MD-v2'
+global.igfg = 'Ikratos-MD-v2'
+global.wait = '*⌛ _Processing..._ ▬▭▭▭▭▭▭*'
+global.waitt = '*⌛ _Processing..._ ▬▬▭▭▭*'
+global.waittt = '*⌛ _Processing..._ ▬▬▬▬▭▭*'
+global.waitttt = '*⌛ _Processing...._ ▬▬▬▬▬▬▭*'
+global.nomorown = '923470027813'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -249,8 +251,8 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Karachi').format('DD/MM/YY')}` //Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Karachi').format('HH:mm:ss')}`//Asia/Karachi
 global.fgif = {
             key: {
                  participant : '0@s.whatsapp.net'},
