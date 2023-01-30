@@ -7,18 +7,18 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //⊱ ━━━━━.⋅ Add the numbers to be Owner ⋅.━━━━ ⊰  
 global.owner = [
-  ['923470027813', 'Ahmad Ali|x_ikratos_x', true],
-  ['923191089077', 'Ikratos-MD-v2', true],
-  ['19294517701', 'Ikratos-MD-v2', true],
-  ['971567062942', 'Ikratos-MD-v2', true],
-  ['6777303337', 'Ikratos-MD-v2', true],
-//['923470027813'], LEAVE THIS LIKE THAT FOR NOW PLEASE
-  ['923191809077'] 
+  ['92080613785', 'Devil King|x_ikratos_x', true],
+  ['923077900642', 'Devil-MD-v2', true],
+  ['19294517701', 'Devil-MD-v2', true],
+  ['923421050713', 'Devil-MD-v2', true],
+  ['923484765816', 'Devil-MD-v2', true],
+//['923080613785'], LEAVE THIS LIKE THAT FOR NOW PLEASE
+  ['923077900642'] 
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = ['923470027813'] 
-global.prems = ['923470027813', '923191809077','6777303337'], 
+global.mods = ['923080613785'] 
+global.prems = ['923080613785', '923077900642','923484765816'], 
    
   
 //⊱ ━━━━━.⋅ IDIOMA : Language ⋅.━━━━ ⊰ 
